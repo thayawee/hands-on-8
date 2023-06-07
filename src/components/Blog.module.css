@@ -1,6 +1,21 @@
-.card div {
+.blog {
     display: flex;
-    width: 900px;
+    flex-direction: column;
+    width: 100%;
     height: auto;
+    gap: 20px;
+    
 }
+
+.author {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.tag {
+    display: flex;
+    gap: 15px;
+}
+
 

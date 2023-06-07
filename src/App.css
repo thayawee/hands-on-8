@@ -1,4 +1,52 @@
 .App {
-  text-align: center;
-  
+  margin: 0;
+}
+
+.blog-container {
+  padding-top: 100px;
+}
+
+.blog-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 60px;
+  column-gap: 30px;
+  margin: 0 150px;
+  padding: 0 30px;
+}
+
+.view-blog {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 150px;
+  margin-bottom: 30px;
+  padding: 0 30px;
+}
+
+.view-blog div {
+  display: flex;
+  align-items: center;
+}
+
+.view-blog img {
+  width: 50px;
+}
+.view-podcast {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 150px;
+  margin-bottom: 30px;
+  padding: 0 30px;
+}
+
+.view-podcast div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.view-podcast img {
+  width: 25px;
 }

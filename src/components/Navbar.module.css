@@ -1,23 +1,23 @@
-.card {
+.navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    height: auto;
-    box-shadow: lightblue;
-    border-radius: 10px;
-    gap: 10px;
-    padding: 0 50px;
+    height: 60px;
+    padding: 0 60px;
 }
 
-.card p {
-    font-size: 20px;
-    font: bold;
+.logo {
+    width: 110px;
 }
 
-.card a {
-    text-decoration: none;
-    color: black;
-    font: bold;
+.link {
+    display: flex;
+    gap: 55px;
 }
+
+.moon {
+    width: 20px;
+}
+
 

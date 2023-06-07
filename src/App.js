@@ -51,12 +51,29 @@ function App() {
     <div className="App">
       <Navbar />
       <div className="blog-container">
-        {blogs.map((blog) => {
-          return <Blog key={blog.id} blog={blog} />
-        })}
+        <div className="view-blog">
+          <div>
+            <img src="https://icons.veryicon.com/png/o/internet--web/prejudice/feedback-8.png" alt="logo-blog" />
+            <p className="text-lg font-bold text-gray-500">Blog</p>
+          </div>
+          <p className="text-base font-bold text-red-700">View All</p>
+        </div>
+        <div className="blog-content">
+          {blogs.map((blog) => {
+            return <Blog key={blog.id} blog={blog} />
+          })}
+        </div>
+        <div className="view-podcast">
+          <div>
+            <img src="https://cdn-icons-png.flaticon.com/512/16/16630.png" alt="logo-podcast" />
+            <p className="text-lg font-bold text-gray-500">Podcast & Video</p>
+          </div>
+          <p className="text-base font-bold text-red-700">View All</p>
+        </div>
       </div>
-      <Footer />
-      <p className="text-red-500">mmmmm</p>
+      <div className="footer">
+        <Footer />
+      </div>
     </div>
   )
 }
