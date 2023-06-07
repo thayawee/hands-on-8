@@ -1,12 +1,6 @@
-.card {
+.card div {
     display: flex;
     width: 900px;
     height: auto;
-    text-align: left;
-    gap: 30px;
 }
 
-.card img {
-    width: 20px;
-    height: 20px;
-}
