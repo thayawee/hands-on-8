@@ -63,13 +63,6 @@ function App() {
             return <Blog key={blog.id} blog={blog} />
           })}
         </div>
-        <div className="view-podcast">
-          <div>
-            <img src="https://cdn-icons-png.flaticon.com/512/16/16630.png" alt="logo-podcast" />
-            <p className="text-lg font-bold text-gray-500">Podcast & Video</p>
-          </div>
-          <p className="text-base font-bold text-red-700">View All</p>
-        </div>
       </div>
       <div className="footer">
         <Footer />
